@@ -1,5 +1,5 @@
 package playground
 
-object playground {
+object Playground extends App{
 
 }
