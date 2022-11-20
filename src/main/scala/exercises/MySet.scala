@@ -176,4 +176,5 @@ object MySetPlayground extends App {
   val propertyEven = new PropertyBasedSet[Integer](x => x % 2 == 0)
   println(propertyEven(1))
   println(propertyEven(2))
+  println((propertyEven + 3))
 }
