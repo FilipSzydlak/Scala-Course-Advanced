@@ -98,7 +98,7 @@ object JVMConcurencyProblems {
     Obnoxious situation (possible):
 
     main thread:
-      meassage = "Scala sucks"
+      message = "Scala sucks"
       awesomeThread.start()
       sleep(1001) - yields execution
     awesome thread:
